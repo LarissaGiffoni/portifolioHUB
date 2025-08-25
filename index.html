@@ -28,6 +28,20 @@
     a{color:var(--primary);text-decoration:none;font-weight:600}
     .badges img{margin:4px}
     footer{text-align:center;margin:30px 0;color:var(--muted)}
+    body{
+  margin:0;
+  padding:0;
+  font-family: Inter, system-ui, Arial;
+  /* três camadas: 2 pontos (estrelas) + 1 gradiente azul escuro */
+  background:
+    radial-gradient(2px 2px at 20px 30px, rgba(255,255,255,.9) 50%, transparent 51%) repeat,
+    radial-gradient(1px 1px at 50px 80px, rgba(255,255,255,.7) 50%, transparent 51%) repeat,
+    linear-gradient(#0b1026, #0b1a3a);
+  background-size: 200px 200px, 300px 300px, cover;
+  background-attachment: fixed; /* fundo fica “parado” ao rolar */
+  color: #f1f5f9; /* texto clarinho para aparecer no fundo escuro */
+}
+
   </style>
 </head>
 <body>
