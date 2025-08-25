@@ -3,64 +3,41 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>Portfólio – Larissa Moreira de Alencar Giffoni Lacerda</title>
-  <meta name="description" content="Portfólio profissional de Larissa Moreira de Alencar Giffoni Lacerda" />
+  <title>Portfólio – Larissa Giffoni Lacerda</title>
+  <meta name="description" content="Portfólio profissional de Larissa Giffoni Lacerda" />
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&display=swap" rel="stylesheet">
   <style>
     :root{
-      --bg: #1a2a6c;
+      --bg: #f9fafb;
       --panel: #ffffff;
       --text: #1f2937;
       --muted: #4b5563;
-      --primary: light violet; 
+      --primary: #2563eb; /* azul destaque */
       --primary-ink: #ffffff;
       --accent: #9333ea; /* roxo alternativo */
       --shadow: 0 6px 20px rgba(0,0,0,.1);
       --radius: 12px;
-  
-    header{
-  background:#4f46e5;  /* azul roxo suave */
-  color:#ffffff;       /* texto branco */
-  padding:16px;
-  text-align:center;
-  font-weight:700;
-}
-
-  margin:28px 0;
-  padding:20px;
-  background: rgba(255,255,255,.96);   /* fundo branco quase sólido */
-  color:#0f172a;                       /* texto escuro dentro do card */
-  border-radius:12px;
-  box-shadow:0 6px 20px rgba(0,0,0,.1);
+    }
+    body{margin:0;padding:0;font-family:Inter,system-ui,Arial;background:var(--bg);color:var(--text)}
+    header{background:var(--primary);color:var(--primary-ink);padding:16px;text-align:center;font-weight:700}
+    .container{max-width:900px;margin:0 auto;padding:20px}
+    section{margin:28px 0;padding:20px;background:var(--panel);border-radius:var(--radius);box-shadow:var(--shadow)}
+    h1,h2,h3{margin-top:0}
     a{color:var(--primary);text-decoration:none;font-weight:600}
     .badges img{margin:4px}
     footer{text-align:center;margin:30px 0;color:var(--muted)}
-    body{
-  margin:0;
-  padding:0;
-  font-family: Inter, system-ui, Arial;
-  /* três camadas: 2 pontos (estrelas) + 1 gradiente azul escuro */
-  background:
-    radial-gradient(2px 2px at 20px 30px, rgba(255,255,255,.9) 50%, transparent 51%) repeat,
-    radial-gradient(1px 1px at 50px 80px, rgba(255,255,255,.7) 50%, transparent 51%) repeat,
-    linear-gradient(#0b1026, #0b1a3a);
-  background-size: 200px 200px, 300px 300px, cover;
-  background-attachment: fixed; /* fundo fica “parado” ao rolar */
-  color: #f1f5f9; /* texto clarinho para aparecer no fundo escuro */
-}
-
   </style>
 </head>
 <body>
   <header>
-    Portfólio – Larissa Moreira de Alencar Giffoni Lacerda
+    Portfólio – Larissa Giffoni Lacerda
   </header>
 
   <main class="container">
     <section>
-      <h1>Larissa Moreira de Alencar Giffoni Lacerda</h1>
+      <h1>Larissa Giffoni Lacerda</h1>
       <p>Estudante de Engenharia de Software com conhecimentos em Python, Git & GitHub e Banco de Dados SQL. Possuo inglês intermediário concluído (avançado em formação) e francês intermediário em curso. Interesse em Engenharia de Requisitos, desenvolvimento de software e análise de sistemas.</p>
     </section>
 
@@ -132,7 +109,9 @@
   </main>
 
   <footer>
-    © 2025 Larissa Moreira de Alencar Giffoni Lacerda — Portfólio criado no GitHub Pages
+    © 2025 Larissa Giffoni Lacerda — Portfólio criado no GitHub Pages
   </footer>
 </body>
 </html>
+
+
