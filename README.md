@@ -40,3 +40,8 @@ Além disso, o repositório está **integrado ao LinkedIn**, permitindo a divulg
 ## 💡 Conclusão
 
 Este repositório foi criado com o propósito de demonstrar o aprendizado sobre **versionamento de código**, **organização de projetos** e **publicação no GitHub Pages**, consolidando a base para o desenvolvimento contínuo de novas habilidades na área de **Engenharia de Software**.
+
+### 💬 Contribuição – Feedback
+
+O projeto é importante por demonstrar na prática o uso de **versionamento com Git e GitHub**, uma das habilidades mais valorizadas na área de tecnologia.  
+Além de apresentar o portfólio pessoal, ele mostra **organização, disciplina e domínio das ferramentas** que permitem trabalhar de forma profissional em equipe e construir uma presença sólida no mundo digital.
